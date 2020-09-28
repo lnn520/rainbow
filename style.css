@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.rainbow {
+    margin: 100px 800px;
+    overflow: hidden;
+    height: 200px;
+    width: 400px;
+}
+
+.rainbow div {
+    overflow: hidden;
+}
+
+.rainbow>div {
+
+    width: 400px;
+    height: 400px;
+    background: red;
+    border-radius: 50%;
+
+}
+
+.rainbow>div>div {
+
+    height: 380px;
+    margin: 10px;
+    background: hsl(40, 70%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div {
+
+    height: 360px;
+    margin: 10px;
+    background: hsl(90, 70%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div {
+
+    height: 340px;
+    margin: 10px;
+    background: hsl(150, 70%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div {
+
+    height: 320px;
+    margin: 10px;
+    background: hsl(200, 70%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div>div {
+
+    height: 300px;
+    margin: 10px;
+    background: hsl(260, 70%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div>div>div {
+
+    height: 280px;
+    margin: 10px;
+    background: hsl(330, 70%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div>div>div>div {
+
+    height: 260px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 50%;
+}
